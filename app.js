@@ -11,8 +11,12 @@ var usersRouter = require('./routes/users');
 var app = express();
 
 // Database handler
-var productRouter = require('./routes/sql');
-app.use('/sql', productRouter);
+var sqlRouter = require('./routes/sql');
+app.use('/sql', sqlRouter);
+
+// Email handler
+var emailRouter = require('./routes/email');
+app.use('/email', emailRouter);
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
