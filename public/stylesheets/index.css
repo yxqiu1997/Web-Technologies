@@ -82,6 +82,10 @@ header img {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
     right: 2.5rem;
     cursor: pointer;
     z-index: 1500;
@@ -105,7 +109,14 @@ header img {
     justify-content: space-around;
     z-index: 1250;
     transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
     transition: transform .5s;
+    -moz-transition: transform .5s;
+    -o-transition: transform .5s;
+    -webkit-transition: transform .5s;
 }
 
 .nav::before {
@@ -119,7 +130,14 @@ header img {
     z-index: 1000;;
     opacity: 0;
     transform: scale(0);
+    -ms-transform: scale(0);
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
+    -webkit-transform: scale(0);
     transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    -o-transition: opacity .5s;
+    -webkit-transition: opacity .5s;
 }
 
 .open .fa-times {
@@ -132,11 +150,19 @@ header img {
 
 .open .nav-list {
     transform: translateX(0);
+    -ms-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -o-transform: translateX(0);
+    -webkit-transform: translateX(0);
 }
 
 .open .nav::before {
     opacity: 1;
     transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -webkit-transform: scale(1);
 }
 
 .nav-item {
@@ -151,6 +177,9 @@ header img {
     letter-spacing: 2px;
     margin-right: -2px;
     transition: color .5s;
+    -moz-transition: color .5s;
+    -o-transition: color .5s;
+    -webkit-transition: color .5s;
 }
 
 .nav-link:hover {
@@ -177,7 +206,13 @@ header img {
     letter-spacing: 2px;
     opacity: 0;
     animation: fadeUp .5s forwards;
+    -moz-animation: fadeUp .5s forwards;
+    -o-animation: fadeUp .5s forwards;
+    -webkit-animation: fadeUp .5s forwards;
     animation-delay: .5s;
+    -moz-animation-delay: .5s;
+    -o-animation-delay: .5s;
+    -webkit-animation-delay: .5s;
 }
 
 .first-letter {
@@ -194,6 +229,9 @@ header img {
     letter-spacing: .5rem;
     margin-right: .5rem;
     animation: scale .5s forwards;
+    -moz-animation: scale .5s forwards;
+    -o-animation: scale .5s forwards;
+    -webkit-animation: scale .5s forwards;
 }
 
 .separator {
@@ -210,7 +248,13 @@ header img {
     position: relative;
     opacity: 0;
     animation: grow 2s forwards;
+    -moz-animation: grow 2s forwards;
+    -o-animation: grow 2s forwards;
+    -webkit-animation: grow 2s forwards;
     animation-delay: .9s;
+    -moz-animation-delay: .9s;
+    -o-animation-delay: .9s;
+    -webkit-animation-delay: .9s;
 }
 
 .line-right::before,
@@ -219,10 +263,20 @@ header img {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
     border: .6rem solid transparent;
     opacity: 0;
     animation: grow 5s forwards;
+    -moz-animation: grow 5s forwards;
+    -o-animation: grow 5s forwards;
+    -webkit-animation: grow 5s forwards;
     animation-delay: 1.2s;
+    -moz-animation-delay: 1.2s;
+    -o-animation-delay: 1.2s;
+    -webkit-animation-delay: 1.2s;
 }
 
 .line-right::before {
@@ -241,13 +295,25 @@ header img {
     margin: 0 1.6rem;
     opacity: 0;
     animation: spin .5s forwards;
+    -moz-animation: spin .5s forwards;
+    -o-animation: spin .5s forwards;
+    -webkit-animation: spin .5s forwards;
     animation-delay: .7s;
+    -moz-animation-delay: .7s;
+    -o-animation-delay: .7s;
+    -webkit-animation-delay: .7s;
 }
 
 .single-animation {
     opacity: 0;
     animation: fadeDown .5s forwards;
+    -moz-animation: fadeDown .5s forwards;
+    -o-animation: fadeDown .5s forwards;
+    -webkit-animation: fadeDown .5s forwards;
     animation-delay: 1.5s;
+    -moz-animation-delay: 1.5s;
+    -o-animation-delay: 1.5s;
+    -webkit-animation-delay: 1.5s;
 }
 
 .headline-description h5 {
@@ -274,6 +340,9 @@ header img {
     color: var(--body-font-color);
     border-radius: .4rem;
     transition: background-color .5s;
+    -moz-transition: background-color .5s;
+    -o-transition: background-color .5s;
+    -webkit-transition: background-color .5s;
 }
 
 .cta-btn:hover,
@@ -326,6 +395,9 @@ header img {
     color: var(--secondary-font-color);
     position: relative;
     transition: color .5s;
+    -moz-transition: color .5s;
+    -o-transition: color .5s;
+    -webkit-transition: color .5s;
 }
 
 .body-btn::before {
@@ -337,6 +409,9 @@ header img {
     height: 2px;
     background-color: var(--secondary-font-color);
     transition: background-color .5s;
+    -moz-transition: background-color .5s;
+    -o-transition: background-color .5s;
+    -webkit-transition: background-color .5s;
 }
 
 .body-btn:hover,
@@ -396,6 +471,10 @@ footer {
     top: -3rem;
     left: 50%;
     transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
     border-radius: 50%;
 }
 
@@ -405,6 +484,9 @@ footer {
     font-size: 2rem;
     padding: 2rem;
     animation: up 2s infinite;
+    -moz-animation: up 2s infinite;
+    -o-animation: up 2s infinite;
+    -webkit-animation: up 2s infinite;
 }
 
 .footer-content {
@@ -444,6 +526,9 @@ footer {
     padding: .8rem 2rem;
     opacity: .5;
     transition: color .5s;
+    -moz-transition: color .5s;
+    -o-transition: color .5s;
+    -webkit-transition: color .5s;
 }
 
 .social-icons i:hover,
@@ -475,6 +560,10 @@ footer {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
     margin-left: 10.5rem;
 }
 
@@ -501,7 +590,14 @@ footer {
         justify-content: initial;
         flex-direction: row;
         transform: initial;
+        -ms-transform: initial;
+        -moz-transform: initial;
+        -o-transform: initial;
+        -webkit-transform: initial;
         transition: initial;
+        -moz-transition: initial;
+        -o-transition: initial;
+        -webkit-transition: initial;
     }
 
     .nav-item {
@@ -596,20 +692,36 @@ footer {
 @keyframes fadeUp {
     0% {
         transform: translateY(4rem);
+        -ms-transform: translateY(4rem);
+        -moz-transform: translateY(4rem);
+        -o-transform: translateY(4rem);
+        -webkit-transform: translateY(4rem);
     }
     100% {
         opacity: 1;
         transform: translateY(0);
+        -ms-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -o-transform: translateY(0);
+        -webkit-transform: translateY(0);
     }
 }
 
 @keyframes scale {
     0% {
         transform: scale(2);
+        -ms-transform: scale(2);
+        -moz-transform: scale(2);
+        -o-transform: scale(2);
+        -webkit-transform: scale(2);
     }
     100% {
         opacity: 1;
         transform: scale(1);
+        -ms-transform: scale(1);
+        -moz-transform: scale(1);
+        -o-transform: scale(1);
+        -webkit-transform: scale(1);
     }
 }
 
@@ -626,20 +738,36 @@ footer {
 @keyframes spin {
     0% {
         transform: rotate(0);
+        -ms-transform: rotate(0);
+        -moz-transform: rotate(0);
+        -o-transform: rotate(0);
+        -webkit-transform: rotate(0);
     }
     100% {
         opacity: 1;
         transform: rotate(-360deg);
+        -ms-transform: rotate(-360deg);
+        -moz-transform: rotate(-360deg);
+        -o-transform: rotate(-360deg);
+        -webkit-transform: rotate(-360deg);
     }
 }
 
 @keyframes fadeDown {
     0% {
         transform: translateY(-4rem);
+        -ms-transform: translateY(-4rem);
+        -moz-transform: translateY(-4rem);
+        -o-transform: translateY(-4rem);
+        -webkit-transform: translateY(-4rem);
     }
     100% {
         opacity: 1;
         transform: translateY(0);
+        -ms-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -o-transform: translateY(0);
+        -webkit-transform: translateY(0);
     }
 }
 
@@ -653,5 +781,9 @@ footer {
     100% {
         opacity: 0;
         transform: translateY(-1rem);
+        -ms-transform: translateY(-1rem);
+        -moz-transform: translateY(-1rem);
+        -o-transform: translateY(-1rem);
+        -webkit-transform: translateY(-1rem);
     }
 }
